@@ -23,9 +23,15 @@ main{
  @media screen and (min-width:600px){
    nav{
      display:inline-block;
-     min-width: 180px;*/
+     min-width: 180px;
 
+   }
+ }
 
+ @media screen and (max-width:600px) {
+   main{
+
+     flex-direction: column-reverse;
 
 
    }
